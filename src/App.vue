@@ -2,15 +2,13 @@
   <v-app>
     <v-app-bar>
       <v-img max-height="60"
-      max-width="60" src="../public/logo.jpg" class="mx-2" contain></v-img>
+      max-width="60" src="../public/image/logo.jpg" class="mx-2" contain></v-img>
       <v-btn to="/">Онлайн-ателье Çiçek</v-btn>
       <v-spacer></v-spacer>
-      <v-toolbar-items>
          <v-btn 
          v-for="link in links" 
          :key="link.title"
          :to="link.url" > {{ link.title }}</v-btn> 
-      </v-toolbar-items>
     </v-app-bar>
     <v-main>
       <router-view></router-view> 

@@ -1,6 +1,6 @@
 <template>
     <v-parallax
-            src="../../public/backgr.jpg"
+            src="../../public/image/backgr.jpg"
           >
             <div class="d-flex flex-column fill-height justify-center align-center">
               <h1 class="text-h4 font-weight-black mb-4">
@@ -11,7 +11,7 @@
               </h4>
               <br>
             <v-btn
-               rounded="" size="x-large" color="blue-grey-lighten-3" 
+               rounded="" size="x-large" color="blue-grey-lighten-3" to="/parametr"
               >НАЧАТЬ</v-btn>
             </div>
           </v-parallax>
@@ -23,54 +23,18 @@
       class="d-flex child-flex"
       cols="12">
       <v-img
-        src="../../public/hudi1.jpeg"
+        src="../../public/image/hudi1.jpeg"
         aspect-ratio="1">
-        <template v-slot:placeholder>
-          <v-row
-            class="fill-height ma-0"
-            align="center"
-            justify="center"
-          >
-            <v-progress-circular
-              indeterminate
-              color="grey-lighten-5"
-            ></v-progress-circular>
-          </v-row>
-        </template>
       </v-img>
       <!-- Second image -->
       <v-img
-            src="../../public/hudi2.webp"
+            src="../../public/image/hudi2.webp"
             aspect-ratio="1">
-            <template v-slot:placeholder>
-              <v-row
-                class="fill-height ma-0"
-                align="center"
-                justify="center"
-              >
-                <v-progress-circular
-                  indeterminate
-                  color="grey-lighten-5"
-                ></v-progress-circular>
-              </v-row>
-            </template>
           </v-img>
           <!-- Third image -->
           <v-img
-                src="../../public/hudi3.jpeg"
+                src="../../public/image/hudi3.jpeg"
                 aspect-ratio="1">
-                <template v-slot:placeholder>
-                  <v-row
-                    class="fill-height ma-0"
-                    align="center"
-                    justify="center"
-                  >
-                    <v-progress-circular
-                      indeterminate
-                      color="grey-lighten-5"
-                    ></v-progress-circular>
-                  </v-row>
-                </template>
               </v-img>
     </v-col>
   </v-row>
