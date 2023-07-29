@@ -6,36 +6,36 @@
           class="d-flex child-flex"
           cols="12">
           <v-img
-            src="../../../public/image/plate.png"
+            src="../../../public/image/constructorDress/3.webp"
             aspect-ratio="1" max-height="256" >
           </v-img>
           <!-- Second image -->
           <v-img
-                src="../../../public/image/futbolka.png"
+                src="../../../public/image/constructorShirt/1.jpeg"
                 aspect-ratio="1" max-height="256">
               </v-img>
               <!-- Third image -->
               <v-img
-                    src="../../../public/image/yubka.png"
-                    aspect-ratio="1" max-height="256">
-                  </v-img>
+                  src="../../../public/image/hudi2.webp"
+                  aspect-ratio="1" max-height="256">
+                </v-img>
         </v-col>
       </v-row>
 
         <v-row class="justify-center text-center mt-4 mb-4">
               <!-- Первая колонка -->
               <v-col cols="4">
-                <v-btn class="pa-3" rounded="" color="blue-grey-lighten-3" to="/constructor">Перейти</v-btn>
+                <v-btn class="pa-3" rounded="" color="blue-grey-lighten-3" to="/constructorDress">Перейти</v-btn>
               </v-col>
 
               <!-- Вторая колонка -->
               <v-col cols="4">
-                <v-btn class="pa-3" rounded="" color="blue-grey-lighten-3" to="/constructor">Перейти</v-btn>
+                <v-btn class="pa-3" rounded="" color="blue-grey-lighten-3" to="/constructorShirt">Перейти</v-btn>
               </v-col>
 
               <!-- Третья колонка -->
               <v-col cols="4">
-                <v-btn class="pa-3" rounded="" color="blue-grey-lighten-3" to="/constructor">Перейти</v-btn>
+                <v-btn class="pa-3" rounded="" color="blue-grey-lighten-3" to="/constructorHudi">Перейти</v-btn>
               </v-col>
             </v-row>
 
@@ -43,18 +43,13 @@
             <v-col
               class="d-flex child-flex"
               cols="12">
-                <v-img
-                src="../../../public/image/hudi.png"
-                aspect-ratio="1" max-height="256">
-              </v-img>
-              <!-- Second image -->
               <v-img
-                    src="../../../public/image/palto.png"
-                    aspect-ratio="1" max-height="256">
-                  </v-img>
+                      src="../../../public/image/constructorSkirt/5.webp"
+                      aspect-ratio="1" max-height="256">
+                    </v-img>
                   <!-- Third image -->
                   <v-img
-                        src="../../../public/image/bryuki.png"
+                        src="../../../public/image/constructorPants/4.jpeg"
                         aspect-ratio="1" max-height="256">
                       </v-img>
             </v-col>
@@ -62,18 +57,12 @@
 
                   <v-row class="justify-center text-center mt-4 mb-4">
                   <!-- Первая колонка -->
-                  <v-col cols="4">
-                    <v-btn class="pa-3" rounded="" color="blue-grey-lighten-3" to="/constructor">Перейти</v-btn>
+                  <v-col cols="6">
+                    <v-btn class="pa-3" rounded="" color="blue-grey-lighten-3" to="/constructorSkirt">Перейти</v-btn>
                   </v-col>
-
-                  <!-- Вторая колонка -->
-                  <v-col cols="4">
-                    <v-btn class="pa-3" rounded="" color="blue-grey-lighten-3" to="/constructor">Перейти</v-btn>
-                  </v-col>
-
                   <!-- Третья колонка -->
-                  <v-col cols="4">
-                    <v-btn class="pa-3" rounded="" color="blue-grey-lighten-3" to="/constructor">Перейти</v-btn>
+                  <v-col cols="6">
+                    <v-btn class="pa-3" rounded="" color="blue-grey-lighten-3" to="/constructorPants">Перейти</v-btn>
                   </v-col>
                 </v-row>
 </template>

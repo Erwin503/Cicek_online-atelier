@@ -1,6 +1,6 @@
 <template>
     <v-parallax
-            src="../../public/image/backgr.jpg"
+            src="../../public/image/background.jpg"
           >
             <div class="d-flex flex-column fill-height justify-center align-center">
               <h1 class="text-h4 font-weight-black mb-4">
