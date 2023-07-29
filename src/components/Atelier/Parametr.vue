@@ -1,4 +1,5 @@
 <template>
+    <v-img src="../../../public/image/login.jpg" max-height="220" max-width="220" class="d-flex mx-auto my-auto mt-2 mb-3"></v-img>
     <h2 class="d-flex flex-column justify-center align-center mt-8 mb-8">ВЫБЕРИТЕ КАТЕГОРИЮ ОДЕЖДЫ:</h2>
     <v-row>
         <v-col

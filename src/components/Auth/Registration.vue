@@ -18,7 +18,7 @@
                     <v-text-field v-model="password" type="password" label="Пароль"></v-text-field>
                     <v-text-field v-model="password" type="password" label="Подтвердите пароль"></v-text-field>
                     <v-btn rounded="" color="blue-grey-lighten-3">Зарегистрироваться</v-btn>
-                    <p class="mt-5">Уже есть аккаунт? <a href="/login" class="login">Войтите.</a></p>
+                    <p class="mt-5">Уже есть аккаунт? <a href="/login" class="login">Войдите.</a></p>
                 </v-form>
             </v-col>
         </v-row>
