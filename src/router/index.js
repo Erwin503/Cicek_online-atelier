@@ -11,6 +11,7 @@ import Parametr from '@/components/Atelier/Parametr.vue'
 import Login from '@/components/Auth/Login.vue'
 import Registration from '@/components/Auth/Registration.vue'
 import Reviews from '@/components/Auth/Reviews.vue'
+import Profile from '@/components/Auth/Profile.vue'
 import Clothes from '@/components/Atelier/Clothes.vue'
 
 
@@ -74,6 +75,11 @@ component: ConstructorSkirt
 path: '/clothes',
 name: 'clothes',
 component: Clothes
+},
+{
+path: '/profile',
+name: 'profile',
+component: Profile
 },
 ]
 
