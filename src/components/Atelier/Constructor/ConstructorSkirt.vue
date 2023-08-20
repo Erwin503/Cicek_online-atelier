@@ -22,8 +22,9 @@
                         </v-col>
                         <v-row justify="center">
                             <v-col v-for="(checkbox, index) in chexbox[n]" :key="index" cols="6" sm="6">
-                                <v-checkbox v-model="ex4" :label="checkbox" :value="checkbox" hide-details
-                                    class="ml-12"></v-checkbox>
+                                 <v-radio-group class="ml-12">
+                        <v-radio :label="checkbox" :value="checkbox"></v-radio>
+                    </v-radio-group>
                             </v-col>
                         </v-row>
                     </v-row>
@@ -37,13 +38,9 @@
                         </v-col>
                         <v-row justify="center">
                               <v-col v-for="(checkbox, index) in chexbox[n]" :key="index" cols="4">
-                              <v-checkbox
-                                v-model="ex4"
-                                :label="checkbox"
-                                :value="checkbox"
-                                hide-details
-                                class="ml-12"
-                              ></v-checkbox>
+                              <v-radio-group>
+                        <v-radio :label="checkbox" :value="checkbox"></v-radio>
+                    </v-radio-group>
                             </v-col>
                             </v-row>
                     </v-row>
@@ -57,8 +54,9 @@
                         </v-col>
                         <v-row justify="center">
                                 <v-col v-for="(checkbox, index) in chexbox[n]" :key="index" cols="6" sm="6">
-                                    <v-checkbox v-model="ex4" :label="checkbox" :value="checkbox" hide-details
-                                        class="ml-12"></v-checkbox>
+                                    <v-radio-group class="ml-12">
+                        <v-radio :label="checkbox" :value="checkbox"></v-radio>
+                    </v-radio-group>
                                 </v-col>
                             </v-row>
                     </v-row>
@@ -72,16 +70,19 @@
                         </v-col>
                         <v-row justify="center">
                             <v-col v-for="(checkbox, index) in chexbox[n]" :key="index" cols="6">
-                                <v-checkbox v-model="ex4" :label="checkbox" :value="checkbox" hide-details
-                                    class="ml-12"></v-checkbox>
+                                 <v-radio-group class="ml-12">
+                        <v-radio :label="checkbox" :value="checkbox"></v-radio>
+                    </v-radio-group>
                             </v-col>
                         </v-row>
                     </v-row>
                     <!-- Цвет -->
                     <v-row class="mb-12" v-if="n === 5">
                         <v-col v-for="color in colors" :key="color" cols="12" sm="3">
-                            <v-checkbox v-model="ex4" :label="color" :color="color" :value="color"
-                                hide-details></v-checkbox>
+                            <v-radio-group>
+                                <v-radio v-model="ex4" :label="color" :color="color" :value="color"
+                                    hide-details></v-radio>
+                                    </v-radio-group>
                         </v-col>
                     </v-row>
                     <!-- Размер -->
